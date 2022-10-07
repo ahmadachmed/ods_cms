@@ -5,11 +5,11 @@ export default function Category() {
         <div className="bg-gray-200">
             <div className="max-w-7xl px-5 py-10 mx-auto">
                 <div className="relative grid grid-flow-col gap-2">
-                    <div className="absolute z-10 right-28 top-12 md:hidden">
-                        <div className="flex items-center justify-center bg-green-800 w-24 h-24 rounded-full">
-                            <p className="text-xs text-white">Categories</p>
+                    {/* <div className="absolute z-10 right-24 top-10 md:hidden">
+                        <div className="flex items-center justify-center bg-green-800 w-16 h-16 rounded-full">
+                            <p className="text-[0.5rem] text-white">Categories</p>
                         </div>
-                    </div>
+                    </div> */}
                     <button className="relative w-full col-span-2 row-span-2 group">
                         <div className="absolute z-10 w-full h-full text-white md:text-5xl text-sm flex justify-center items-center group">
                             {/* <p className="border-orange-600 md:border-b-[12px] border-b-4">Traditional Style</p> */}
